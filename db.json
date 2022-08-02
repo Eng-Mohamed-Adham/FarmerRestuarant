@@ -1,0 +1,55 @@
+{
+    "offersproduct": [
+        {
+            "id":1,
+            "label":"عرض تشارجر الاحتفالي",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004777.jpg",
+            "info":"4 تويستر تشارجر + بطاطس عائلي + 1.25 لتر مشروب"
+        },
+        {
+            "id":2,
+            "label":"غايمرز بوكس",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004648.jpg",
+            "info":"مايتى زنجر سندوتش +بطاطا+بيبسى+كوكيز" 
+        },
+        
+        {
+            "id":3,
+            "label":"عرض تشارجر الاحتفالي",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004777.jpg",
+            "info":"4 تويستر تشارجر + بطاطس عائلي + 1.25 لتر مشروب"
+        },
+        {
+            "id":4,
+            "label":"غايمرز بوكس",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004648.jpg",
+            "info":"مايتى زنجر سندوتش +بطاطا+بيبسى+كوكيز" 
+        },
+       
+        {
+            "id":5,
+            "label":"عرض تشارجر الاحتفالي",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004777.jpg",
+            "info":"4 تويستر تشارجر + بطاطس عائلي + 1.25 لتر مشروب"
+        },
+        {
+            "id":6,
+            "label":"غايمرز بوكس",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004648.jpg",
+            "info":"مايتى زنجر سندوتش +بطاطا+بيبسى+كوكيز" 
+        },
+      
+        {
+            "id":7,
+            "label":"عرض تشارجر الاحتفالي",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004777.jpg",
+            "info":"4 تويستر تشارجر + بطاطس عائلي + 1.25 لتر مشروب"
+        },
+        {
+            "id":8,
+            "label":"غايمرز بوكس",
+            "imgPath":"https://bahrain.kfc.me/Images/ItemsImages/Menu3/itm004648.jpg",
+            "info":"مايتى زنجر سندوتش +بطاطا+بيبسى+كوكيز" 
+        }
+    ]
+}

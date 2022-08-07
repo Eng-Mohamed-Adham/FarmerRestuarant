@@ -151,24 +151,35 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
+                flexGrow: 1,
                 display: { xs: 'block', md: 'none' },
+                
+                
               }}
             >
-              {/* {pages.map((page) => ( */}
-                <MenuItem  onClick={handleCloseNavMenu}>
+        
                   
                   
-                       <Link  textAlign="center" href='/deals' ><a>deals</a></Link>
-                       <Link  textAlign="center" href='/forone' ><a>FOR ONE</a></Link>
-                       <Link  textAlign="center" href='/forsharing' ><a>For Sharing</a></Link>
-                       <Link  textAlign="center" href='/sidesanddesserts' ><a>SIDES&DESSERTS</a></Link>
-                       <Link  textAlign="center" href='/shoppingcard' ><a>SHOPPINGCARD</a></Link>
+                
                        
-                  
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                      <Link  textAlign="center" href='/deals'  ><a>Deals</a></Link>
+                        </MenuItem>
+                      <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <Link  textAlign="center" href='/forone' ><a>FOR ONE</a></Link>
+                       </MenuItem>
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+
+                       <Link  textAlign="center" href='/forsharing' ><a>For Sharing</a></Link>
+                       </MenuItem>
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <Link  textAlign="center" href='/desserts' ><a>DESSERTS</a></Link>
+                       </MenuItem>
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <Link  textAlign="center" href='/shoppingcard' ><a>SHOPPINGCARD</a></Link>
+                       </MenuItem>
                    
                    
-                </MenuItem>
-              {/* ))} */}
             </Menu>
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
@@ -191,9 +202,9 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
             farm restaurant
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-         
+                    
                     <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
-                      <Link  textAlign="center" href='/deals' ><a>deals</a></Link>
+                      <Link  textAlign="center" href='/deals'  ><a>Deals</a></Link>
                         </Button>
                       <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/forone' ><a>FOR ONE</a></Link>
@@ -203,7 +214,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
                        <Link  textAlign="center" href='/forsharing' ><a>For Sharing</a></Link>
                        </Button>
                        <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
-                       <Link  textAlign="center" href='/sidesanddesserts' ><a>SIDES&DESSERTS</a></Link>
+                       <Link  textAlign="center" href='/desserts' ><a>DESSERTS</a></Link>
                        </Button>
                        <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/shoppingcard' ><a>SHOPPINGCARD</a></Link>

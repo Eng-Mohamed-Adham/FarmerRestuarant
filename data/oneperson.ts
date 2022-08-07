@@ -5,7 +5,8 @@ export const  oneperson = [
         imgPath:"https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         info:"Minced meat sandwich with vegetables",
         count:1,
-        price:10
+        price:10,
+         totalPrice:10  
     },
     {
         id:1,
@@ -13,7 +14,8 @@ export const  oneperson = [
         imgPath:"https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600",
         info:"Minced meat sandwich with vegetables" ,
         count:1,
-        price:10
+        price:10,
+         totalPrice:10  
     },
     
     {
@@ -22,7 +24,8 @@ export const  oneperson = [
         imgPath:"https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         info:"Minced meat sandwich with vegetables",
         count:1,
-        price:10
+        price:10,
+         totalPrice:10  
     },
     {
         id:3,
@@ -30,7 +33,8 @@ export const  oneperson = [
         imgPath:"https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=600",
         info:"Minced meat sandwich with vegetables",
         count:1,
-        price:10
+        price:10,
+         totalPrice:10  
     },
     {
         id:4,
@@ -38,7 +42,8 @@ export const  oneperson = [
         imgPath:"https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         info:"Minced meat sandwich with vegetables" ,
         count:1,
-        price:10
+        price:10,
+         totalPrice:10  
     },
     
     {
@@ -47,6 +52,7 @@ export const  oneperson = [
         imgPath:"https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=600",
         info:"Minced meat sandwich with vegetables",
         count:1,
-        price:10
+        price:10,
+         totalPrice:10  
     },
 ]

@@ -133,7 +133,7 @@ function Forsharing (){
                             
 
                             <CardContent>
-                                <Typography gutterBottom sx={{fontSize:'13px'}} component="p">
+                                <Typography gutterBottom sx={{fontSize:'13px'}}  component="p">
                                     {post.info}
                                 </Typography>
                             

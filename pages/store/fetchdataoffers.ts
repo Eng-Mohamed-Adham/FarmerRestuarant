@@ -42,7 +42,7 @@ export const dataoffersSlice = createSlice({
             {
             
               
-                state.data.filter(el=> el.id === action.payload ? el.count < 1 ? el.count++ : el.count++ :el )
+                state.data.filter(el=> el.id === action.payload ? el.totalPrice = (++el.count) * el.price:el )
                 
             }
 
@@ -51,7 +51,7 @@ export const dataoffersSlice = createSlice({
             {
             
              
-                state.data.filter(el=> el.id === action.payload ? el.count < 1 ? el.count=1 : el.count-- :el )
+                state.data.filter(el=> el.id === action.payload ? el.count <= 1 ? el.count=1 : el.count-- :el )
 
                 
                

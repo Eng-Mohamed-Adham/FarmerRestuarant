@@ -14,6 +14,7 @@ import dataonepersonSlice from './fetchdataoneperson'
 
 import dataforSharingSlice from './fetchdatasharing'
 
+import dataDessertsSlice from './fetchdatadessert'
 import axios from 'axios';
 
 
@@ -73,6 +74,7 @@ export const makeStore = () => configureStore({
         orderSlice,
         fetchdataoneperson:dataonepersonSlice,
         fetchdatasharing:dataforSharingSlice,
+        fetchdatadesserts:dataDessertsSlice,
         
 
 

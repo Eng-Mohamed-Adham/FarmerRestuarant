@@ -129,7 +129,7 @@ function Offers (){
                             <CardActionArea>
 
                             
-                            <Typography variant='h5' sx={{fontSize:'20px',fontWeight:'600'}}>{post.price * post.count}Euro</Typography>
+                            <Typography variant='h5' sx={{fontSize:'20px',fontWeight:'600'}}>{ post.price * post.count}Euro</Typography>
                             
 
                             <CardContent>

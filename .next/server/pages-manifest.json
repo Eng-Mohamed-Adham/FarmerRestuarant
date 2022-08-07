@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/oneperson": "pages/api/oneperson.js",
-  "/deals": "pages/deals.js",
-  "/api/offers": "pages/api/offers.js",
-  "/api/forsharing": "pages/api/forsharing.js",
-  "/forsharing": "pages/forsharing.js"
+  "/": "pages/index.js"
 }

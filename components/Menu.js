@@ -115,7 +115,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
             sx={{
               mr: 4,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'cursive',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: '#ffee0a',
@@ -162,20 +162,20 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
                   
                 
                        
-                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block',fontFamily: 'cursive' }} onClick={handleCloseNavMenu} >
                       <Link  textAlign="center" href='/deals'  ><a>Deals</a></Link>
                         </MenuItem>
-                      <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                      <MenuItem sx={{ my: 1, color: 'black', display: 'block',fontFamily: 'cursive' }} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/forone' ><a>FOR ONE</a></Link>
                        </MenuItem>
-                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' ,fontFamily: 'cursive'}} onClick={handleCloseNavMenu} >
 
                        <Link  textAlign="center" href='/forsharing' ><a>For Sharing</a></Link>
                        </MenuItem>
-                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' ,fontFamily: 'cursive'}} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/desserts' ><a>DESSERTS</a></Link>
                        </MenuItem>
-                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <MenuItem sx={{ my: 1, color: 'black', display: 'block' ,fontFamily: 'cursive'}} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/shoppingcard' ><a>SHOPPINGCARD</a></Link>
                        </MenuItem>
                    
@@ -192,31 +192,32 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              // fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: '#ffee0a',
               textDecoration: 'none',
+              fontFamily: 'cursive'
             }}
           >
             farm restaurant
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                     
-                    <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
+                    <Button sx={{ my: 2, color: 'white', display: 'block',fontFamily: 'cursive' }} onClick={handleCloseNavMenu} >
                       <Link  textAlign="center" href='/deals'  ><a>Deals</a></Link>
                         </Button>
-                      <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
+                      <Button sx={{ my: 2, color: 'white', display: 'block',fontFamily: 'cursive' }} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/forone' ><a>FOR ONE</a></Link>
                        </Button>
-                       <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <Button sx={{ my: 2, color: 'white', display: 'block',fontFamily: 'cursive' }} onClick={handleCloseNavMenu} >
 
                        <Link  textAlign="center" href='/forsharing' ><a>For Sharing</a></Link>
                        </Button>
-                       <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <Button sx={{ my: 2, color: 'white', display: 'block' ,fontFamily: 'cursive'}} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/desserts' ><a>DESSERTS</a></Link>
                        </Button>
-                       <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={handleCloseNavMenu} >
+                       <Button sx={{ my: 2, color: 'white', display: 'block',fontFamily: 'cursive' }} onClick={handleCloseNavMenu} >
                        <Link  textAlign="center" href='/shoppingcard' ><a>SHOPPINGCARD</a></Link>
                        </Button>
           </Box>
@@ -307,7 +308,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="" src='' />
               </IconButton>
             </Tooltip>
            
@@ -332,7 +333,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
             >
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+                  <Typography textAlign="center" sx={{fontFamily: 'cursive'}}>{setting}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -360,21 +361,23 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
        maxWidth="xl"
        
         >
-      <Tooltip title="Add" 
+      <Tooltip title="+1(202)599086824" 
       
       >
-        <Button sx={{color:'white'}}>Grow</Button>
+        <Button sx={{color:'white',fontFamily: 'cursive'}}>contact Us</Button>
       </Tooltip>
       <Tooltip
         TransitionComponent={Fade}
         TransitionProps={{ timeout: 600 }}
-        title="Add"
+        title="London"
       >
-        <Button sx={{color:'white'}} >Fade</Button>
+        <Button sx={{color:'white',fontFamily: 'cursive'}} >visit us</Button>
       </Tooltip>
-      <Tooltip TransitionComponent={Zoom} title="Add">
-        <Button sx={{color:'white'}}>Zoom</Button>
-      </Tooltip>
+
+
+      {/* <Tooltip TransitionComponent={Zoom} title="Add">
+        <Button sx={{color:'white',fontFamily: 'cursive'}}>Zoom</Button>
+      </Tooltip> */}
       </Container>
     </AppBar>
     </main>

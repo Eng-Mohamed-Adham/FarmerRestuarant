@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-// import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
-// import { FaQuoteRight } from 'react-icons/fa'
+
+import Link from 'next/link';
+
 import data from '../data/dataOfSlider'
 
 
@@ -9,6 +10,8 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 import {
 Box,
+Button,
+
 }from '@mui/material'
 
 function Sliders() {
@@ -85,20 +88,23 @@ function Sliders() {
             <article className={position} key={id}>
               <img src={image} alt={name} className='person-img' />
               {/* <h4>{name}</h4> */}
-              <p className='title'>{title}</p>
-              <p className='text'>{quote}</p>
+              {/* <p className='title'>{title}</p> */}
+              {/* <p className='text'>{quote}</p> */}
+              
               {/* <ArrowBackIosNewIcon className='icon' /> */}
               <button className='prev' onClick={prevSlide}>
-          <NavigateBeforeIcon />
-        </button>
-        <button className='next' onClick={nextSlide}>
-          <NavigateNextIcon />
-        </button>
+                  <NavigateBeforeIcon />
+                </button>
+                <button className='next' onClick={nextSlide}>
+                  <NavigateNextIcon />
+                </button>
             </article>
           )
         })}
-       
+        <Button className='but-center' ><Link href='/desserts'><a>OnLine</a></Link></Button>
       </div>
+     
+       
     </Box>
   )
 }

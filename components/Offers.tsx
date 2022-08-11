@@ -143,15 +143,15 @@ function Offers (){
                             <Button size="large"  color="error"  variant="contained" onClick={() => handelOrder(post)}  >
                                 Order
                             </Button>
-                        <ButtonGroup color = 'success'  variant="outlined" onClick={() => dipatchev(incrementOffers(id))}>
+                        <ButtonGroup color = 'error'  variant="contained" onClick={() => dipatchev(incrementOffers(id))}>
 
-                            <IconButton   color = 'success'  > 
+                            <IconButton   color = 'error'  > 
                                     <AddIcon sx={{marginLeft:'5px',marginRight:'5px', }} />
                                     
                             </IconButton>
                             </ButtonGroup>
 
-                            <ButtonGroup color='error'  variant ="outlined" onClick={() => dipatchev(decrementOffers(id))} >
+                            <ButtonGroup color='error'  variant ="contained" onClick={() => dipatchev(decrementOffers(id))} >
 
                             <IconButton  color='error'   >
                                     <RemoveIcon sx={{marginLeft:'0px',marginRight:'5px', }} />

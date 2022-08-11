@@ -25,7 +25,7 @@ const services = ['Customer Services','Connect with US','How do you reach US?','
         direction='row'
         justifyContent='center'
         alignItems='center'
-        gap='20px'
+        gap='60px'
         item xs={2} sm={3} md={4}
         spacing='3'
         my={4}
@@ -36,12 +36,12 @@ const services = ['Customer Services','Connect with US','How do you reach US?','
         }}
         >
             <Grid>
-                <nav>
+                <nav className='nav'>
                     <ul sx={{listStyle:'none',color:'white'}} >
                         {pages.map(page => (
                             <li  key = {page} sx={{listStyle:'none',color:'white'}} >
                                 <Link href={`/${page}`}>
-                                    <a>{page}</a>
+                                    <a className='links'>{page}</a>
                                 </Link>
                             </li>
                         ))}
@@ -53,12 +53,12 @@ const services = ['Customer Services','Connect with US','How do you reach US?','
             </Grid>
 
             <Grid>
-            <nav>
+            <nav className='nav'>
                     <ul sx={{listStyle:'none',color:'white'}} >
                         {data.map(info => (
                             <li className='style'  key = {info} sx={{listStyle:'none',color:'white'}} >
                                 <Link href={`/${info}`}>
-                                    <a>{info}</a>
+                                    <a className='links'>{info}</a>
                                 </Link>
                             </li>
                         ))}
@@ -70,12 +70,12 @@ const services = ['Customer Services','Connect with US','How do you reach US?','
             </Grid>
            
             <Grid>
-            <nav>
+            <nav className='nav'>
                     <ul sx={{listStyle:'none',color:'white'}} >
                         {dataforAccount.map(data => (
                             <li  key = {data} sx={{listStyle:'none',color:'white'}} >
                                 <Link href={`/${data}`}>
-                                    <a>{data}</a>
+                                    <a className='links'>{data}</a>
                                 </Link>
                             </li>
                         ))}
@@ -85,12 +85,12 @@ const services = ['Customer Services','Connect with US','How do you reach US?','
                     </ul>
                 </nav>
             </Grid>
-            <nav>
+            {/* <nav className='nav'>
                     <ul sx={{listStyle:'none',color:'white'}} >
                         {services.map(data => (
                             <li  key = {data} sx={{listStyle:'none',color:'white'}} >
                                 <Link href={`/${data}`}>
-                                    <a>{data}</a>
+                                    <a className='links'>{data}</a>
                                 </Link>
                             </li>
                         ))}
@@ -100,7 +100,7 @@ const services = ['Customer Services','Connect with US','How do you reach US?','
                     </ul>
                 </nav>
             <Grid>
-            </Grid>
+            </Grid> */}
         </Grid>
     )
 }

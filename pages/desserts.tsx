@@ -3,7 +3,7 @@ import Dessert from '../components/Desserts';
 
 
 import { ResponsiveAppBar } from "../components/Menu"
-import TitleOfOffers from '../components/titleOfoffers'
+import TitleDessert from '../components/titleForDessert'
 import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
 
@@ -12,7 +12,7 @@ import Footer2 from '../components/footer2'
     return(
         <>
         <ResponsiveAppBar />
-        <TitleOfOffers />
+        <TitleDessert />
         <Dessert />
         <Footer2 />
         <Footer />

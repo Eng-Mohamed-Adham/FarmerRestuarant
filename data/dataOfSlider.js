@@ -2,7 +2,7 @@ const people = [
     {
       id: 1,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+        'https://media-cdn.tripadvisor.com/media/photo-s/1a/b8/46/6d/london-stock.jpg',
       name: 'maria ferguson',
       title: 'office manager',
       quote:
@@ -11,7 +11,7 @@ const people = [
     {
       id: 2,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+        'https://www.essentialsurrey.co.uk/downloads/22106/download/London%20Stock%203.jpg?cb=0311383839a093f238d5b97ac86313f7&w=1200',
       name: 'john doe',
       title: 'regular guy',
       quote:
@@ -20,7 +20,7 @@ const people = [
     {
       id: 3,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
+        'https://www.stylist.co.uk/images/app/uploads/2021/10/12141051/london-stock-interior.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress',
       name: 'peter smith',
       title: 'product designer',
       quote:
@@ -29,7 +29,7 @@ const people = [
     {
       id: 4,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+        'https://resizer.otstatic.com/v2/photos/wide-large/3/28904555.jpg',
       name: 'susan andersen',
       title: 'the boss',
       quote:

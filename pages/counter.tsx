@@ -4,7 +4,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-// import { wrapper } from "../store";
 
 import { selectcounter } from './store/ProductSlice';
 
@@ -24,7 +23,6 @@ const counter: NextPage = (props: any) => {
   
         <main className="row">
           <h1 className="text-center">
-            {/* Your <a href="https://featuringcode.com">Featuring Code</a>, {selectcounter?.value} */}
 
           </h1>
           <Button onClick={() => dispatch(increment())}>Increment</Button>
@@ -42,24 +40,13 @@ const counter: NextPage = (props: any) => {
             Hello, {props.profileData}!
           </p>
   
-          {/* {product?.name ? <div>Product history: <strong>{product.name}</strong></div> : <></>} */}
         </main>
       </div>
     );
   };
 
 
-// export const getServerSideProps = wrapper.getServerSideProps(store => async ({ query }) => {
-//     console.log('store state on the server before dispatch', store.getState());
-//     const profileData = query.data || 'profile data';
-//     //  http://localhost:3000/profile?data='some-data'
-  
-//     return {
-//       props: {
-//         profileData
-//       }
-//     };
-//   });
+
 
 
 

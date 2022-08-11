@@ -2,7 +2,7 @@ import Shopping from '../components/shoppingcard';
 
 
 import { ResponsiveAppBar } from "../components/Menu"
-import TitleOfOffers from '../components/titleOfoffers'
+import TitleShopping from '../components/titleOfShopping'
 import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
 
@@ -11,7 +11,7 @@ import Footer2 from '../components/footer2'
     return(
         <>
         <ResponsiveAppBar />
-        <TitleOfOffers />
+        <TitleShopping />
         <Shopping />
         <Footer2 />
         <Footer />

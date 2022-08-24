@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Menu", "components/titleOfOnePerson.js", "pages/api/forsharing/index.js", "components/taps.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Menu", "components/titleOfOnePerson.js", "pages/api/forsharing/index.js", "components/taps.js", "components/Desserts.jsx", "components/shoppingcard.jsx", "components/OnePerson.jsx", "components/Offers.jsx", "components/Forsharing.jsx"],
   "exclude": ["node_modules"]
 }

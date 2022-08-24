@@ -37,11 +37,11 @@ import Card from '@mui/material/Card';
 
 
 
-import { useAppSelector } from '../pages/store/apphooks';
+import { useAppSelector } from '../store/apphooks';
 
-import { selectorders } from '../pages/store/orderslice';
+import { selectorders } from '../store/orderslice';
 
-import { deleteorder } from '../pages/store/orderslice';
+import { deleteorder } from '../store/orderslice';
 
 
 import {useDispatch,useSelector} from 'react-redux'

@@ -13,14 +13,7 @@ import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
 
 
-import TitleOfOffers from '../components/titleOfoffers'
-import SlideOffers from '../components/slideOffers'
 
-import TitleOfOnePerson from '../components/titleOfOnePerson'
-import SlideForOne from '../components/slideForOne'
-
-import TitleForSharing from '../components/titleForSharing'
-import SlideForSharing from '../components/slideForSharing'
 
 import Intro from '../components/intro'
 

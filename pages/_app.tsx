@@ -1,11 +1,11 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
-import { wrapper } from './store/index';
+import { wrapper } from '../store/index';
 
 import {Provider} from 'react-redux'
 
-import { makeStore } from './store/index';
+import { makeStore } from '../store/index';
 
 
 

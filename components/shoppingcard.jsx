@@ -43,11 +43,11 @@ import { addorder,deleteorder } from '../store/orderslice';
 import { selectorders } from '../store/orderslice';
 
 
+
 import { useEffect } from 'react';
 
 
 function Shopping (){
-
 
 
 
@@ -69,12 +69,22 @@ function Shopping (){
           }
           const handelSumation = ()=> {
 
-            let prices = orders.map((e ,id) => {return(e.totalPrice)})
+              let summation;
+              
+              let prices = orders.map((e ,id) => {return(e.totalPrice)})
+
+            if(orders[0] === "no products" ){
+              summation = 0;
+            }else{
+             
             
 
 
-            let summation = prices.reduce (function(accumulator,currentValue){ return accumulator + currentValue} ,0)
+             summation = prices.reduce (function(accumulator,currentValue){ return accumulator + currentValue} ,0)
 
+
+            }
+            
 
 
            
@@ -83,6 +93,11 @@ function Shopping (){
 
           useEffect(()=> {
             handelSumation()
+
+            if(orders.length === 0 ){
+
+              dispatchOrder(addorder("no products"))
+            }
           })
 
         return(
@@ -108,6 +123,9 @@ function Shopping (){
                 orders.map((e,id) => {
                   return(
                     // <MenuItem key={id} onClick={handleClose}>{e.label}</MenuItem>
+
+                    e ==="no products"?'No Product' :
+
                     <Box key={id}>
                     <Card sx={{ display: 'flex' }} >
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>

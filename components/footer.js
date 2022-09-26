@@ -115,7 +115,7 @@ const year = today.getFullYear() ;
      
        </Grid>
 
-        <Grid container sx={{marginTop:'50px',padding: '20px 0'}}>
+        <Grid container sx={{marginTop:'50px',padding: '20px 0',}}>
         <span
         style={{
             padding:'20px 0',

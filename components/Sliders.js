@@ -101,7 +101,7 @@ function Sliders() {
             </article>
           )
         })}
-        <Button className='but-center' ><Link href='/desserts'><a>OnLine</a></Link></Button>
+        <Button className='but-center' ><Link href='/'><a>OnLine</a></Link></Button>
       </div>
      
        

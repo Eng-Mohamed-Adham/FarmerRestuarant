@@ -16,7 +16,6 @@ import MenuItem from '@mui/material/MenuItem';
 import Link from 'next/link';
 
 import Fade from '@mui/material/Fade';
-import Zoom from '@mui/material/Zoom';
 
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 
@@ -33,7 +32,6 @@ import Divider from '@mui/material/Divider';
 import Card from '@mui/material/Card';
     import CardContent from '@mui/material/CardContent';
     import CardMedia from '@mui/material/CardMedia';
-    import { CardActionArea, CardActions } from '@mui/material';
 
 
 
@@ -47,10 +45,14 @@ import { deleteorder } from '../store/orderslice';
 import {useDispatch,useSelector} from 'react-redux'
 
 
+import { signIn, signOut, useSession } from 'next-auth/react'
+
+
+
 const pages = ['DEALS', 'FORONE', 'For Sharing','SIDES&DESSERTS','SHOPPINGCARD'];
 
 
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['Profile', 'Account',];
 
  export const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -72,7 +74,9 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
   };
 
 
-
+  //Login Info
+  const { data: session, status } = useSession()
+  const loading = status === "loading"
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -256,6 +260,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
                 orders.map((e,id) => {
                   return(
                     // <MenuItem key={id} onClick={handleClose}>{e.label}</MenuItem>
+                    e ==="no products"?'No Product' :
                     <Box key={id}>
                     <Card sx={{ display: 'flex' }} >
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -304,17 +309,17 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
             </Menu>
               
     </Box>
-
+    {session && (
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="" src='' />
+                <Avatar alt={`${session.user.name}`} src={`${session.user.image}`} />
               </IconButton>
             </Tooltip>
            
             
 
-
+           
             <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
@@ -334,14 +339,43 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
                   <Typography textAlign="center" sx={{fontFamily: 'cursive'}}>{setting}</Typography>
+
+                
                 </MenuItem>
+             
               ))}
+                  <Link href='/api/auth/signout'>
+                  <a
+                    onClick={e => {
+                      e.preventDefault()
+                      signOut()
+                    }}>
+                          Sign Out
+                  </a>
+                </Link>
             </Menu>
+            
+           
           </Box>
+    )}
+
+{!loading && !session && (
+
+<Link href='/api/auth/signin'>
+<a
+  onClick={e => {
+    e.preventDefault()
+    signIn()
+  }}>
+  Sign In
+</a>
+</Link>
+
+)}
         </Toolbar>
 
         
-     
+
 
       </Container>
       

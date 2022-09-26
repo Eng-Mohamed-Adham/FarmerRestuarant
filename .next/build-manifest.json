@@ -1,0 +1,65 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/FCF1bVqSfPKQW23IAICfn/_buildManifest.js",
+    "static/FCF1bVqSfPKQW23IAICfn/_ssgManifest.js",
+    "static/FCF1bVqSfPKQW23IAICfn/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/795-7d921cd7bbab1d9e.js",
+      "static/chunks/pages/index-f76b24b2e508c41e.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/css/e8948621651a2f75.css",
+      "static/chunks/pages/_app-52ebaaef177117a7.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/_error-0a004b8b8498208d.js"
+    ],
+    "/deals": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/deals-9357d2ea779cbf5c.js"
+    ],
+    "/desserts": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/desserts-d88faf86f7012088.js"
+    ],
+    "/forone": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/forone-e2aae2757b7099f3.js"
+    ],
+    "/forsharing": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/forsharing-8a93bf6973758cf8.js"
+    ],
+    "/shoppingcard": [
+      "static/chunks/webpack-2e51481b1d484a05.js",
+      "static/chunks/framework-4556c45dd113b893.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/shoppingcard-3989471c7fedb532.js"
+    ]
+  },
+  "ampFirstPages": []
+}

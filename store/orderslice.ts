@@ -5,21 +5,16 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 export type OrderState = {
-    orders: [orders: any]
+    orders: [orders: any ]
 }
 
 
 const initialState : OrderState  ={
     orders:[
-        {
-            id:1,
-label:"Salted Caramel Cookie Skillet",
-imgPath:"https://images.pexels.com/photos/2878737/pexels-photo-2878737.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-info:" 2 twister sandwiches + 1 pc chicken + fries + coleslaw + Drink ",
-count:1,
-price:10,
-totalPrice:10,
-        }
+
+    "no products"
+
+
     ]
 }
 
@@ -30,14 +25,30 @@ export const orderSlice = createSlice({
     reducers:{
         addorder:(state,action) => {
 
-            state.orders.push(action.payload)
+            // let itemsOfOrder =state.orders
+            // let order : any  =itemsOfOrder.findIndex(e => e ===  "no products" )
+            // console.log(order)
+            
+            let itemnull = state.orders[0]
+
+            if(itemnull === "no products" ){
+                state.orders.splice(itemnull,1);
+                state.orders.push(action.payload)
+            }else{
+                state.orders.push(action.payload)
+            }
+            
+
+            // state.orders.push(action.payload)
 
         },
         deleteorder:(state,action) => {
             let itemsOfOrder =state.orders 
             let order : any  =itemsOfOrder.findIndex(e => e.label === action.payload)
             // console.log(order)
-            itemsOfOrder.splice(order,1)
+        
+                itemsOfOrder.splice(order,1)
+            
             
         }
     }

@@ -1,13 +1,17 @@
 import Shopping from '../components/shoppingcard';
 
+import useTitle from '../hooks/useTitle';
 
-import TitleShopping from '../components/titleOfShopping'
+import FastfoodIcon from '@mui/icons-material/Fastfood';
+
+
 
 
  function Shoppingcard () {
+    const title =useTitle(FastfoodIcon,'Your Order ')
     return(
         <>
-        <TitleShopping />
+        {title}
         <Shopping />
 
         </>

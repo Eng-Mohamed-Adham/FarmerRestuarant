@@ -10,12 +10,13 @@ export default function BasicTabs() {
 
 
   return (
-    <Box sx={{ width: '100%', height: '100%', overflowY: 'hidden', marginTop:'100px' }} >
+    // <Box sx={{ width: '100%', height: '100%', overflowY: 'hidden', marginTop:'100px' }} >
     
-      {
+      // {
         <ul 
  
       variant="standard"
+      className='list-item'
       >
           {
             itemData.map((e) => (
@@ -48,8 +49,8 @@ export default function BasicTabs() {
             ))
           }
         </ul>
-      }
-    </Box>
+      // }
+    // </Box>
   );
 }
 

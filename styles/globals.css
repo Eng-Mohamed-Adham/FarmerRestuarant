@@ -443,3 +443,30 @@ width: 100px;
   border-radius: 1px;
 
 }
+
+
+/* Start Img List  */
+
+.list-item {
+  display: grid !important;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr))!important;
+  justify-content: center;
+  margin-left: 0!important;
+  width: 100%;
+  margin:auto !important;
+  margin-top: 100px !important;
+}
+
+@media screen and (max-width:660px) {
+  .list-item {
+    grid-template-columns: auto !important;
+  }
+}
+
+
+.box-list{
+  margin: auto !important;
+  transform: translate(50px,-50px) !important;
+  margin-top:100px;
+}

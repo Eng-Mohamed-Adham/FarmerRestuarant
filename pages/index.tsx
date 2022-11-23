@@ -45,9 +45,9 @@ useEffect(()=> {
       <Box  sx={{marginLeft:'20px',marginTop:'0px'}}>
         <Intro />
       </Box>
-      <Box sx={{marginLeft:'20px',marginTop:'0px'}}>
+      {/* <Box className='box-list' sx={{marginLeft:'0px',marginTop:'100px', }}> */}
           <BasicTabs />
-      </Box>
+      {/* </Box> */}
  
       <Box  sx={{marginLeft:'20px',marginTop:'0px'}}>
       </Box>

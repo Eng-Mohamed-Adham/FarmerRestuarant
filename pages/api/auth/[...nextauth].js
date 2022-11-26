@@ -12,7 +12,9 @@ import FacebookProvider from "next-auth/providers/facebook";
 
 
 export default NextAuth({
+    
     providers: [
+      
       GitHubProvider({
         clientId:process.env.GITHUB_ID,
         clientSecret:process.env.GITHUB_SECRET,
@@ -36,5 +38,9 @@ export default NextAuth({
 
 
     ],
-    secret: process.env.JWT_SECRET
+    secret: process.env.JWT_SECRET,
+    
 })
+
+
+

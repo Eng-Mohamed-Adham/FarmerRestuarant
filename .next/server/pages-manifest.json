@@ -1,18 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/api/forsharing": "pages/api/forsharing.js",
-  "/api/hello": "pages/api/hello.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
-  "/api/desserts": "pages/api/desserts.js",
-  "/api/offers": "pages/api/offers.js",
-  "/api/oneperson": "pages/api/oneperson.js",
-  "/deals": "pages/deals.html",
-  "/desserts": "pages/desserts.html",
-  "/forone": "pages/forone.html",
-  "/forsharing": "pages/forsharing.html",
-  "/": "pages/index.html",
-  "/shoppingcard": "pages/shoppingcard.html",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }

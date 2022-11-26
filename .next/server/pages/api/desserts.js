@@ -1,85 +1,35 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 365;
-exports.ids = [365];
+exports.id = "pages/api/desserts";
+exports.ids = ["pages/api/desserts"];
 exports.modules = {
 
-/***/ 8783:
+/***/ "(api)/./data/desserts.ts":
+/*!**************************!*\
+  !*** ./data/desserts.ts ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"desserts\": () => (/* binding */ desserts)\n/* harmony export */ });\nconst desserts = [\n    {\n        id: 0,\n        label: \"  Cinnamon Sugar Doh Rings, Red Robin        \",\n        imgPath: \"https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\",\n        info: \" Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi\",\n        count: 1,\n        price: 10,\n        totalPrice: 10\n    },\n    {\n        id: 1,\n        label: \"Salted Caramel Cookie Skillet\",\n        imgPath: \"https://images.pexels.com/photos/2878737/pexels-photo-2878737.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load\",\n        info: \" 2 twister sandwiches + 1 pc chicken + fries + coleslaw + Drink \",\n        count: 1,\n        price: 10,\n        totalPrice: 10\n    },\n    {\n        id: 2,\n        label: \"  Chocolate Brownie Lasagna, Olive Garden    \",\n        imgPath: \"https://images.pexels.com/photos/574111/pexels-photo-574111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\",\n        info: \" Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi\",\n        count: 1,\n        price: 10,\n        totalPrice: 10\n    },\n    {\n        id: 3,\n        label: \"Banana Spring Rolls, P.F. Chang's       \",\n        imgPath: \"https://images.pexels.com/photos/4869423/pexels-photo-4869423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\",\n        info: \" Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi\",\n        count: 1,\n        price: 10,\n        totalPrice: 10\n    },\n    {\n        id: 4,\n        label: \" Paradise Pie, Chili's       \",\n        imgPath: \"https://images.pexels.com/photos/4078187/pexels-photo-4078187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\",\n        info: \" 2 twister sandwiches + 1 pc chicken + fries \",\n        count: 1,\n        price: 10,\n        totalPrice: 10\n    },\n    {\n        id: 5,\n        label: \" Double Chocolate Fudge Coca-Cola Cake, Cracker Barrel\",\n        imgPath: \"https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1\",\n        info: \" Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi\",\n        count: 1,\n        price: 10,\n        totalPrice: 10\n    }, \n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9kYXRhL2Rlc3NlcnRzLnRzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBTyxNQUFPQSxRQUFRLEdBQUc7SUFDckI7UUFDSUMsRUFBRSxFQUFDLENBQUM7UUFDSkMsS0FBSyxFQUFDLCtDQUErQztRQUNyREMsT0FBTyxFQUFDLGlIQUFpSDtRQUN6SEMsSUFBSSxFQUFDLHNEQUFzRDtRQUMzREMsS0FBSyxFQUFDLENBQUM7UUFDUEMsS0FBSyxFQUFDLEVBQUU7UUFDUEMsVUFBVSxFQUFDLEVBQUU7S0FDakI7SUFDRDtRQUNJTixFQUFFLEVBQUMsQ0FBQztRQUNKQyxLQUFLLEVBQUMsK0JBQStCO1FBQ3JDQyxPQUFPLEVBQUMsOEdBQThHO1FBQ3RIQyxJQUFJLEVBQUMsa0VBQWtFO1FBQ3ZFQyxLQUFLLEVBQUMsQ0FBQztRQUNQQyxLQUFLLEVBQUMsRUFBRTtRQUNQQyxVQUFVLEVBQUMsRUFBRTtLQUNqQjtJQUVEO1FBQ0lOLEVBQUUsRUFBQyxDQUFDO1FBQ0pDLEtBQUssRUFBQywrQ0FBK0M7UUFDckRDLE9BQU8sRUFBQywrR0FBK0c7UUFDdkhDLElBQUksRUFBQyxzREFBc0Q7UUFDM0RDLEtBQUssRUFBQyxDQUFDO1FBQ1BDLEtBQUssRUFBQyxFQUFFO1FBQ1BDLFVBQVUsRUFBQyxFQUFFO0tBQ2pCO0lBQ0Q7UUFDSU4sRUFBRSxFQUFDLENBQUM7UUFDSkMsS0FBSyxFQUFDLDBDQUEwQztRQUNoREMsT0FBTyxFQUFDLGlIQUFpSDtRQUN6SEMsSUFBSSxFQUFDLHNEQUFzRDtRQUMzREMsS0FBSyxFQUFDLENBQUM7UUFDUEMsS0FBSyxFQUFDLEVBQUU7UUFDUEMsVUFBVSxFQUFDLEVBQUU7S0FDakI7SUFDRDtRQUNJTixFQUFFLEVBQUMsQ0FBQztRQUNKQyxLQUFLLEVBQUMsK0JBQStCO1FBQ3JDQyxPQUFPLEVBQUMsaUhBQWlIO1FBQ3pIQyxJQUFJLEVBQUMsK0NBQStDO1FBQ3BEQyxLQUFLLEVBQUMsQ0FBQztRQUNQQyxLQUFLLEVBQUMsRUFBRTtRQUNQQyxVQUFVLEVBQUMsRUFBRTtLQUNqQjtJQUVEO1FBQ0lOLEVBQUUsRUFBQyxDQUFDO1FBQ0pDLEtBQUssRUFBQyx3REFBd0Q7UUFDOURDLE9BQU8sRUFBQyxpSEFBaUg7UUFDekhDLElBQUksRUFBQyxzREFBc0Q7UUFDM0RDLEtBQUssRUFBQyxDQUFDO1FBQ1BDLEtBQUssRUFBQyxFQUFFO1FBQ1BDLFVBQVUsRUFBQyxFQUFFO0tBQ2pCO0NBQ0oiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teS1hcHAvLi9kYXRhL2Rlc3NlcnRzLnRzPzMwNDYiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0ICBkZXNzZXJ0cyA9IFtcbiAgICB7XG4gICAgICAgIGlkOjAsXG4gICAgICAgIGxhYmVsOlwiICBDaW5uYW1vbiBTdWdhciBEb2ggUmluZ3MsIFJlZCBSb2JpbiAgICAgICAgXCIsXG4gICAgICAgIGltZ1BhdGg6XCJodHRwczovL2ltYWdlcy5wZXhlbHMuY29tL3Bob3Rvcy8yMTQ0MTEyL3BleGVscy1waG90by0yMTQ0MTEyLmpwZWc/YXV0bz1jb21wcmVzcyZjcz10aW55c3JnYiZ3PTEyNjAmaD03NTAmZHByPTFcIixcbiAgICAgICAgaW5mbzpcIiBNaWdodHkgWmluZ2VyICsgMyBTdHJpcHMgKyBGcmllcyArIENvbGVzbGF3ICsgUGVwc2lcIixcbiAgICAgICAgY291bnQ6MSxcbiAgICAgICAgcHJpY2U6MTAsXG4gICAgICAgICB0b3RhbFByaWNlOjEwICBcbiAgICB9LFxuICAgIHtcbiAgICAgICAgaWQ6MSxcbiAgICAgICAgbGFiZWw6XCJTYWx0ZWQgQ2FyYW1lbCBDb29raWUgU2tpbGxldFwiLFxuICAgICAgICBpbWdQYXRoOlwiaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMjg3ODczNy9wZXhlbHMtcGhvdG8tMjg3ODczNy5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz02MDAmbGF6eT1sb2FkXCIsXG4gICAgICAgIGluZm86XCIgMiB0d2lzdGVyIHNhbmR3aWNoZXMgKyAxIHBjIGNoaWNrZW4gKyBmcmllcyArIGNvbGVzbGF3ICsgRHJpbmsgXCIgLFxuICAgICAgICBjb3VudDoxLFxuICAgICAgICBwcmljZToxMCxcbiAgICAgICAgIHRvdGFsUHJpY2U6MTAgIFxuICAgIH0sXG4gICAgXG4gICAge1xuICAgICAgICBpZDoyLFxuICAgICAgICBsYWJlbDpcIiAgQ2hvY29sYXRlIEJyb3duaWUgTGFzYWduYSwgT2xpdmUgR2FyZGVuICAgIFwiLFxuICAgICAgICBpbWdQYXRoOlwiaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvNTc0MTExL3BleGVscy1waG90by01NzQxMTEuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTI2MCZoPTc1MCZkcHI9MVwiLFxuICAgICAgICBpbmZvOlwiIE1pZ2h0eSBaaW5nZXIgKyAzIFN0cmlwcyArIEZyaWVzICsgQ29sZXNsYXcgKyBQZXBzaVwiLFxuICAgICAgICBjb3VudDoxLFxuICAgICAgICBwcmljZToxMCxcbiAgICAgICAgIHRvdGFsUHJpY2U6MTAgIFxuICAgIH0sXG4gICAge1xuICAgICAgICBpZDozLFxuICAgICAgICBsYWJlbDpcIkJhbmFuYSBTcHJpbmcgUm9sbHMsIFAuRi4gQ2hhbmcncyAgICAgICBcIixcbiAgICAgICAgaW1nUGF0aDpcImh0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzQ4Njk0MjMvcGV4ZWxzLXBob3RvLTQ4Njk0MjMuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTI2MCZoPTc1MCZkcHI9MVwiLFxuICAgICAgICBpbmZvOlwiIE1pZ2h0eSBaaW5nZXIgKyAzIFN0cmlwcyArIEZyaWVzICsgQ29sZXNsYXcgKyBQZXBzaVwiLFxuICAgICAgICBjb3VudDoxLFxuICAgICAgICBwcmljZToxMCxcbiAgICAgICAgIHRvdGFsUHJpY2U6MTAgIFxuICAgIH0sXG4gICAge1xuICAgICAgICBpZDo0LFxuICAgICAgICBsYWJlbDpcIiBQYXJhZGlzZSBQaWUsIENoaWxpJ3MgICAgICAgXCIsXG4gICAgICAgIGltZ1BhdGg6XCJodHRwczovL2ltYWdlcy5wZXhlbHMuY29tL3Bob3Rvcy80MDc4MTg3L3BleGVscy1waG90by00MDc4MTg3LmpwZWc/YXV0bz1jb21wcmVzcyZjcz10aW55c3JnYiZ3PTEyNjAmaD03NTAmZHByPTFcIixcbiAgICAgICAgaW5mbzpcIiAyIHR3aXN0ZXIgc2FuZHdpY2hlcyArIDEgcGMgY2hpY2tlbiArIGZyaWVzIFwiICxcbiAgICAgICAgY291bnQ6MSxcbiAgICAgICAgcHJpY2U6MTAsXG4gICAgICAgICB0b3RhbFByaWNlOjEwICBcbiAgICB9LFxuICAgIFxuICAgIHtcbiAgICAgICAgaWQ6NSxcbiAgICAgICAgbGFiZWw6XCIgRG91YmxlIENob2NvbGF0ZSBGdWRnZSBDb2NhLUNvbGEgQ2FrZSwgQ3JhY2tlciBCYXJyZWxcIixcbiAgICAgICAgaW1nUGF0aDpcImh0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzQxMDk5OTgvcGV4ZWxzLXBob3RvLTQxMDk5OTguanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTI2MCZoPTc1MCZkcHI9MVwiLFxuICAgICAgICBpbmZvOlwiIE1pZ2h0eSBaaW5nZXIgKyAzIFN0cmlwcyArIEZyaWVzICsgQ29sZXNsYXcgKyBQZXBzaVwiLFxuICAgICAgICBjb3VudDoxLFxuICAgICAgICBwcmljZToxMCxcbiAgICAgICAgIHRvdGFsUHJpY2U6MTAgIFxuICAgIH0sXG5dIl0sIm5hbWVzIjpbImRlc3NlcnRzIiwiaWQiLCJsYWJlbCIsImltZ1BhdGgiLCJpbmZvIiwiY291bnQiLCJwcmljZSIsInRvdGFsUHJpY2UiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./data/desserts.ts\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ handler)
-});
+/***/ }),
 
-;// CONCATENATED MODULE: ./data/desserts.ts
-const desserts = [
-    {
-        id: 0,
-        label: "  Cinnamon Sugar Doh Rings, Red Robin        ",
-        imgPath: "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        info: " Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi",
-        count: 1,
-        price: 10,
-        totalPrice: 10
-    },
-    {
-        id: 1,
-        label: "Salted Caramel Cookie Skillet",
-        imgPath: "https://images.pexels.com/photos/2878737/pexels-photo-2878737.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        info: " 2 twister sandwiches + 1 pc chicken + fries + coleslaw + Drink ",
-        count: 1,
-        price: 10,
-        totalPrice: 10
-    },
-    {
-        id: 2,
-        label: "  Chocolate Brownie Lasagna, Olive Garden    ",
-        imgPath: "https://images.pexels.com/photos/574111/pexels-photo-574111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        info: " Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi",
-        count: 1,
-        price: 10,
-        totalPrice: 10
-    },
-    {
-        id: 3,
-        label: "Banana Spring Rolls, P.F. Chang's       ",
-        imgPath: "https://images.pexels.com/photos/4869423/pexels-photo-4869423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        info: " Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi",
-        count: 1,
-        price: 10,
-        totalPrice: 10
-    },
-    {
-        id: 4,
-        label: " Paradise Pie, Chili's       ",
-        imgPath: "https://images.pexels.com/photos/4078187/pexels-photo-4078187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        info: " 2 twister sandwiches + 1 pc chicken + fries ",
-        count: 1,
-        price: 10,
-        totalPrice: 10
-    },
-    {
-        id: 5,
-        label: " Double Chocolate Fudge Coca-Cola Cake, Cracker Barrel",
-        imgPath: "https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        info: " Mighty Zinger + 3 Strips + Fries + Coleslaw + Pepsi",
-        count: 1,
-        price: 10,
-        totalPrice: 10
-    }, 
-];
+/***/ "(api)/./pages/api/desserts/index.js":
+/*!*************************************!*\
+  !*** ./pages/api/desserts/index.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-;// CONCATENATED MODULE: ./pages/api/desserts/index.js
-
-function handler(req, res) {
-    res.status(200).json(desserts);
-};
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _data_desserts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../data/desserts */ \"(api)/./data/desserts.ts\");\n\nfunction handler(req, res) {\n    res.status(200).json(_data_desserts__WEBPACK_IMPORTED_MODULE_0__.desserts);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvZGVzc2VydHMvaW5kZXguanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBZ0Q7QUFHakMsU0FBU0MsT0FBTyxDQUFDQyxHQUFHLEVBQUNDLEdBQUcsRUFBQztJQUNwQ0EsR0FBRyxDQUFDQyxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUNDLElBQUksQ0FBQ0wsb0RBQVEsQ0FBQztDQUNqQyIsInNvdXJjZXMiOlsid2VicGFjazovL215LWFwcC8uL3BhZ2VzL2FwaS9kZXNzZXJ0cy9pbmRleC5qcz83MDhkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7ZGVzc2VydHN9IGZyb20gJy4uLy4uLy4uL2RhdGEvZGVzc2VydHMnO1xuXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhbmRsZXIocmVxLHJlcyl7XG4gICAgcmVzLnN0YXR1cygyMDApLmpzb24oZGVzc2VydHMpXG59Il0sIm5hbWVzIjpbImRlc3NlcnRzIiwiaGFuZGxlciIsInJlcSIsInJlcyIsInN0YXR1cyIsImpzb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/desserts/index.js\n");
 
 /***/ })
 
@@ -90,7 +40,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(8783));
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/desserts/index.js"));
 module.exports = __webpack_exports__;
 
 })();

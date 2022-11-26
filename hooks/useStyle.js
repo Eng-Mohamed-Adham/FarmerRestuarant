@@ -30,7 +30,13 @@ import {
     import {
         useAppDispatch,
         useAppSelector
-    }from '../store/apphooks'
+    }from '../store/apphooks';
+
+
+import Box from '@mui/material/Box';
+import Skeleton from '@mui/material/Skeleton';
+
+
 
 
 
@@ -98,9 +104,50 @@ function useStyle(getData,selectData,increment,decrement) {
 
     >
 
+       
 
-        {
-            data.map((post,id) => (
+        { pending | error ?
+                <Grid
+                container
+                rowSpacing='4'
+                columnSpacing='xs:2,sm:4,md:4'
+                direction='row'
+                justifyContent='center'
+                alignItems='center'
+                gap='20px'
+                item xs={2} sm={4} md={4}
+                spacing='3'
+                my={4}
+                sx={{
+                    marginTop:'50px'
+                }}
+                 >
+                    <Card sx={{ maxWidth: 345,height:'350px', }} >
+                        <Box  sx={{ width: 210, marginRight: 0.5, my: 5 }}>
+
+                            <Skeleton  variant="rectangular" width={210} height={118} />
+
+                        </Box>
+                    </Card>
+                    <Card sx={{ maxWidth: 345,height:'350px', }} >
+                        <Box  sx={{ width: 210, marginRight: 0.5, my: 5 }}>
+
+                            <Skeleton  variant="rectangular" width={210} height={118} />
+
+                        </Box>
+                    </Card>
+                    <Card sx={{ maxWidth: 345,height:'350px', }} >
+                        <Box  sx={{ width: 210, marginRight: 0.5, my: 5 }}>
+
+                            <Skeleton  variant="rectangular" width={210} height={118} />
+
+                        </Box>
+                    </Card>
+                </Grid>
+                  
+
+
+            : data.map((post,id) => (
                 <Card sx={{ maxWidth: 345,height:'350px', }} key={id} >
                   
                 
@@ -151,7 +198,10 @@ function useStyle(getData,selectData,increment,decrement) {
                     </CardActions>
             </Card>
             ))
+            
+
         } 
+
 
     
     </Grid>

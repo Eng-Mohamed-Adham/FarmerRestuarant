@@ -336,9 +336,9 @@ article.nextSlide {
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
-color:#fff;
-font-family: cursive;
-background-color: #da3430;
+color:#fff !important;
+font-family: cursive !important;
+background-color: #da3430 !important;
 margin: 0;
 padding: 0;
 height: 50px;
@@ -347,9 +347,9 @@ width: 100px;
 
 }
 .but-center:hover{
-  background-color: rgba(255, 255, 255, 0.658);
-  color:#da3430;
-  transition: ease-in-out .3s;
+  background-color: rgba(255, 255, 255, 0.658) !important;
+  color:#da3430 !important;
+  transition: ease-in-out .3s !important;
 }
 
 

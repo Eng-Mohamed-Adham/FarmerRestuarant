@@ -1,64 +1,39 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/8-EGoyS3oJKpKqLn1SOT6/_buildManifest.js",
-    "static/8-EGoyS3oJKpKqLn1SOT6/_ssgManifest.js",
-    "static/8-EGoyS3oJKpKqLn1SOT6/_middlewareManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/795-7d921cd7bbab1d9e.js",
-      "static/chunks/pages/index-945f5d51aa814530.js"
-    ],
     "/_app": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/css/8555eb120a8f1780.css",
-      "static/chunks/pages/_app-52ebaaef177117a7.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/_error-0a004b8b8498208d.js"
-    ],
-    "/deals": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/deals-a4e6aeddb5cdc34e.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ],
     "/desserts": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/desserts-dc4f51cdedcc1dbb.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/desserts.js"
     ],
     "/forone": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/forone-235497670932320b.js"
-    ],
-    "/forsharing": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/forsharing-a9e2d94706eb653e.js"
-    ],
-    "/shoppingcard": [
-      "static/chunks/webpack-2e51481b1d484a05.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/shoppingcard-442523ace21f3e02.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/forone.js"
     ]
   },
   "ampFirstPages": []

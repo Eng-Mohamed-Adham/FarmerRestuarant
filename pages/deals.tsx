@@ -13,6 +13,8 @@ import {
 //params of useTitle hook
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 
+import  { Suspense } from 'react';
+
 
 
 
@@ -20,11 +22,18 @@ import LocalOfferIcon from '@mui/icons-material/LocalOffer';
     const title = useTitle(LocalOfferIcon,'The best Offers')
     const data = useStyle(getDataOffers,selectData,incrementOffers,decrementOffers)
     return(
+        
+        // <Suspense fallback={<div>Loading...</div>}>
         <>
         {title}
         {data}
+        
+         {/* </Suspense> */}
 
         </>
+
+
+        
     )
 }
 
